@@ -21,7 +21,7 @@ const ClickToEarn = () => {
                             <Description MyClass='max-w-[687px] px-4 pb-8 pt-14 sm:px-[30px] sm:pb-[30px] sm:pt-[50px]' MyText={'HEY YOU! Yeah, YOU! So you made it this far… Hell yeah I’m impressed! Means you’re serious about pizza, vibes, and big-time wins. Catch me at the slots or the poker table, always *ALL-IN* for that next big score. It’s the thrill, baby—the gamble, the grind—it keeps me fired up to build the ULTIMATE PIZZA EMPIRE! Wanna roll with the best? Smash that button, start stackin’ up, and show me what you got. FEELS GREAT MAN!'} />
                         </div>
                         <div className='sm:flex hidden justify-center w-full items-center flex-wrap gap-2 sm:gap-[30px] sm:mt-8'>
-                            <button className='transition duration-300 transform hover:scale-105'> <Image className='max-w-[241px] w-full' src="/assets/images/svg/play-now.svg" alt="play-now" width={ 241} height={74.78} /></button>
+                            <button className='transition duration-300 transform hover:scale-105 max-w-[241px]'> <Image className='max-w-[241px] w-full' src="/assets/images/svg/play-now.svg" alt="play-now" width={ 241} height={74.78} /></button>
                             <button className='transition duration-300 transform hover:scale-105'><Image className='max-w-[241px] w-full' src="/assets/images/svg/mini-app.svg" alt="mini-app" width={241} height={74.78} /></button>
                         </div>
                         <div className='flex flex-col gap-2 sm:hidden justify-center items-center mt-2'>

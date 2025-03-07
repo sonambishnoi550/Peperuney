@@ -12,8 +12,8 @@ const Pizzanomics = () => {
                     <Image className='max-w-[301px] sm:max-w-[420px] xl:max-w-[485px] w-full mx-auto lg:mx-0 max-md:pb-4' src="/assets/images/png/pepe-runny-image.webp" alt="peperunry-image" width={485} height={257.31} />
                 </div>
                 <div className="xl:max-w-[812px] lg:w-full -mx-5 lg:mx-0">
-                    <div className='bg-black relative -rotate-3 w-full h-[341px] pb-10 sm:pb-11 flex justify-center items-end xl:-mt-[240px] -mt-[237px] sm:-mt-[225px] lg:-mt-[260px]'>
-                        <p className='font-normal text-[70px] sm:text-[80px] md:text-[85px] xl:text-[135px] leading-[100%] text-white uppercase mb-0.5'>42 BILLION</p>
+                    <div className='bg-black relative -rotate-3 w-full h-[301px] flex max-sm:pb-10 justify-center items-end xl:-mt-[240px] -mt-[237px] sm:-mt-[225px] lg:-mt-[260px]'>
+                        <p className='font-normal text-[70px] sm:text-[80px] !mt-20 md:text-[85px] xl:text-[135px] leading-[100%] text-white uppercase mb-0.5'>42 BILLION</p>
                     </div>
                     <p className='text-4xl sm:text-[80px] sm:leading-[80px] font-normal text-white relative my-5 -rotate-3 text-center'>token supply</p>
                 </div>
@@ -26,7 +26,7 @@ const Pizzanomics = () => {
                     <Image src="/assets/images/png/tax-layer.webp" alt="taxLayer" className='sm:w-full object-cover w-[610px] max-w-[610px] sm:max-w-full' width={942} height={306} />
                     <p className='text-[#893101] drop-shadow-[6px_-6px_0px_#FBDB81] absolute left-1/2 top-[20%] -translate-x-1/2 tracking-[0.04em] text-nowrap font-normal text-[60px] sm:text-[80px] xl:text-[115px] leading-[100%] uppercase'>zero tax</p>
                 </div>
-                <span className='lg:flex bg-[#F83628] w-full absolute left-0 hidden -mt-[1px] -top-1 xl:top-10 z-[1] h-24'></span>
+                <span className='lg:flex bg-[#DA291C] w-full absolute left-0 hidden -mt-[1px] -top-1 xl:top-10 z-[1] h-20'></span>
             </div>
             <div className='bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center max-sm:bg-mobile-view' style={{ backgroundImage: `url(/assets/images/png/pizzanomics-bg.webp)` }}>
                 <div className="max-sm:bg-mobile-layer bg-100 -mt-[207px] bg-cover bg-no-repeat bg-center min-h-[1190px] pt-[162px]">

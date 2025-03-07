@@ -16,7 +16,7 @@ const PeperuneyMeme = () => {
                     <CustomHeading MyClass='max-w-[555px] text-center' MyText={'PEPERUNEY MEME'} />
                     <img className='sm:max-w-[250px] max-w-[184px] text-center -mt-[18px]' src="/assets/images/png/gallery-image.webp" alt="gallery-image" />
                 </div>
-                <div data-aos="zoom-in" className='relative max-w-[820px] overflow-x-hidden'>
+                <div className='relative max-w-[820px] overflow-x-hidden'>
                     <Swiper
                         loop={true}
                         spaceBetween={8}
