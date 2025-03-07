@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 
 const Pizzanomics = () => {
-
     return (
         <div className='relative bg-[#DA291C] overflow-hidden max-w-[1440px] mx-auto'>
+            <Image className="relative z-10" src="/assets/images/png/Pizza box pattern.png" alt="pizza-box" width={1524} height={134}/>
             <Image className='sm:w-full max-w-[972px] w-[972px] relative z-10 object-contain sm:max-w-full' src="/assets/images/png/pizzanomics-layer.webp" alt="pizzanomics-layer" width={1440} height={346} />
-            <p className='absolute left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-16 xl:left-20 top-[50px] sm:top-4 md:top-[30px] drop-shadow-[10.7px_-10.7px_0px_#FBDB81] text-[#893101] text-[60px] sm:text-[70px] lg:text-[90px] xl:text-[141px] leading-[100%] z-20'>PIZZANOMICS</p>
+            <p className='absolute left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-16 xl:left-20 top-[3%] md:top-[4%] xl:top-[9%] lg:top-[8%] drop-shadow-[10.7px_-10.7px_0px_#FBDB81] text-[#893101] text-[60px] sm:text-[70px] lg:text-[90px] xl:text-[141px] leading-[100%] z-20'>PIZZANOMICS</p>
             <div className='flex lg:flex-row flex-col-reverse justify-between gap-5'>
                 <div className='relative z-10 lg:-mt-10 xl:-mt-20 lg:ml-[60px] xl:ml-[67px]'>
                     <Image className='max-w-[301px] sm:max-w-[420px] xl:max-w-[485px] w-full mx-auto lg:mx-0 max-md:pb-4' src="/assets/images/png/pepe-runny-image.webp" alt="peperunry-image" width={485} height={257.31} />
