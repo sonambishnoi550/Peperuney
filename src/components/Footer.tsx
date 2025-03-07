@@ -11,11 +11,11 @@ const Footer = () => {
             <Image className='absolute sm:hidden block -top-8 h-[272px] w-full' src="/assets/images/png/footer-vector-mobile.webp" alt="footer-vector" width={375} height={293} />
             <div className='container max-sm:px-2 mx-auto'>
                 <div className='z-10 relative flex xl:justify-between justify-center items-center flex-wrap max-xl:gap-6 py-5 md:pt-3 md:pb-9'>
-                    <p className='schoolbell font-normal text-lg text-black text-center max-sm:max-w-[272px] max-sm:mx-auto'>
+                    <p className='ff-schoolbell font-normal text-lg text-black text-center max-sm:max-w-[272px] max-sm:mx-auto'>
                         Copyright ⓒ {currentYear} Peperuney Pizza. All rights Reserved
                     </p>
                     <div className='flex max-sm:gap-3 gap-4'>
-                        <p className='schoolbell font-normal text-lg text-black'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
+                        <p className='ff-schoolbell font-normal text-lg text-black'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
                         <div className='bg-black size-8 p-2 cursor-pointer'>
                             <Image src="/assets/images/svg/solar-copy.svg" alt="solar-copy" width={32} height={32} />
                         </div>
@@ -24,13 +24,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex flex-wrap max-sm:justify-center gap-6 max-sm:gap-5 max-sm:max-w-[335px] max-sm:mx-auto'>
-                        <Link className='schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="/disclaimer">
+                        <Link className='ff-schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="/disclaimer">
                             Disclaimer
                         </Link>
-                        <Link className='schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="mailto:contact@peperuney.pizza">
+                        <Link className='ff-schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="mailto:contact@peperuney.pizza">
                             contact@peperuney.pizza
                         </Link>
-                        <Link className='schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="/whitepaper">
+                        <Link className='ff-schoolbell hover:text-[#F83628] transition duration-300 hover:after:border-b-[#F83628] font-normal text-lg relative after:absolute after:w-full after:h-[1px] after:border-b xl:after:bottom-[7px] after:bottom-[6px] after:left-0 after:content-[""] after:border-b-black' href="/whitepaper">
                             White paper
                         </Link>
                     </div>

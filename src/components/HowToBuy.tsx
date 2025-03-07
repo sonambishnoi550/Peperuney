@@ -48,21 +48,21 @@ const HowToBuy: React.FC = () => {
                                         }`}>
                                     <div className="flex justify-center -mt-[54px]">
                                         <div className="bg-black rotate-[-5deg] px-4 py-3 flex justify-center items-center">
-                                            <p className="luckiest font-normal rotate-[-5deg] lg:text-[54px] lg:leading-[54px] text-[28px] leading-7 text-white">
+                                            <p className="font-normal rotate-[-5deg] lg:text-[54px] lg:leading-[54px] text-[28px] leading-7 text-white">
                                                 {`0${card.id}`}
                                             </p>
                                         </div>
                                     </div>
-                                    <h5 className="xl:text-[40px] lg:text-[28px] lg:leading-7 md:text-xl md:leading-5 text-[28px] leading-7 xl:leading-10 lg:max-w-[282px] luckiest font-normal text-center mx-auto max-sm:pt-[30px] sm:pt-[10px]">
+                                    <h5 className="xl:text-[40px] lg:text-[28px] lg:leading-7 md:text-xl md:leading-5 text-[28px] leading-7 xl:leading-10 lg:max-w-[282px] font-normal text-center mx-auto max-sm:pt-[30px] sm:pt-[10px]">
                                         {card.title}
                                     </h5>
-                                    <p className="font-normal schoolbell md:text-base lg:text-lg text-lg text-center pt-[10px]">
+                                    <p className="font-normal ff-schoolbell md:text-base lg:text-lg text-lg text-center pt-[10px]">
                                         {card.description}
                                     </p>
                                 </div>
                                 {index === 1 && (
                                     <div className="p-3 bg-white border-4 lg:flex hidden border-black mt-9 gap-3 items-center w-full max-w-[342px]">
-                                        <p className="schoolbell text-lg text-nowrap">
+                                        <p className="ff-schoolbell text-lg text-nowrap">
                                             CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0
                                         </p>
                                         <div className="size-8 bg-black flex items-center justify-center">

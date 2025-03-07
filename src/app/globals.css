@@ -1,24 +1,29 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import "tailwindcss";
 
 .main-heading {
     -webkit-text-stroke: 2px black;
 }
+
 .meet-bg {
     background: linear-gradient(180deg, #A6E3F5 0%, #FFFFFF 100%);
 }
-.meet-vector{
+
+.meet-vector {
     background-image: url('/assets/images/png/meet-vector.webp') !important;
 }
 
-.luckiest{
-    font-family: 'Luckiest Guy',cursive !important;
+body {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
 }
-.schoolbell{
-    font-family: 'Schoolbell',cursive !important;
+
+.ff-schoolbell {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
 }
+
 @media(max-width:639.99px) {
     .click-bg {
         background: linear-gradient(180deg, #7C4C01 80.5%, rgba(226, 139, 2, 0) 100%);

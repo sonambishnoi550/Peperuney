@@ -30,7 +30,7 @@ const Faq: React.FC = () => {
                             >
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className={`flex items-center justify-between schoolbell w-full text-left text-white text-2xl sm:text-[32px] sm:leading-[44.56px] font-normal ${activeIndex === index ? 'p-4 sm:pt-[18px] pb-1 sm:px-6' : 'px-4 py-5'
+                                    className={`flex items-center justify-between ff-schoolbell w-full text-left text-white text-2xl sm:text-[32px] sm:leading-[44.56px] font-normal ${activeIndex === index ? 'p-4 sm:pt-[18px] pb-1 sm:px-6' : 'px-4 py-5'
                                         }`}
                                 >
                                     <span className='max-w-[569px]'>{item.title}</span>
@@ -60,7 +60,7 @@ const Faq: React.FC = () => {
                                     }}
                                     className="overflow-hidden transition-all duration-500 ease-in-out"
                                 >
-                                    <div className="p-[0_16px_16px_16px] sm:pb-2 sm:px-6 sm:pt-2 text-white schoolbell font-normal text-xl sm:text-2xl sm:leading-[43.2px]">
+                                    <div className="p-[0_16px_16px_16px] sm:pb-2 sm:px-6 sm:pt-2 text-white ff-schoolbell font-normal text-xl sm:text-2xl sm:leading-[43.2px]">
                                         {item.content}
                                     </div>
                                 </div>
