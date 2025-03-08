@@ -11,7 +11,7 @@ const ClickToEarn = () => {
             <div className='bg-cover bg-no-repeat bg-center relative click-bg max-sm:h-[1260px]'>
                 <Image className='lg:max-w-[388px] sm:max-w-[279px] md:max-w-[300px] sm:block hidden absolute left-0 bottom-0' src="/assets/images/webp/click-image.webp" alt="click-image" width={388} height={854} />
                 <div className='container sm:pt-[96px] pt-[60px] relative z-10 pb-[128px] justify-center items-center flex lg:items-end lg:justify-end'>
-                    <div data-aos="fade-up" className='sm:max-w-[682px] w-full'>
+                    <div className='sm:max-w-[682px] w-full'>
                         <div className='flex justify-center items-center flex-col'>
                             <CustomHeading MyClass='sm:max-w-[555px] w-full text-center sm:block hidden' MyText={'CLICK-TO-EARN AND ARCADE'} />
                             <CustomHeading MyClass='sm:hidden block text-center' MyText={'CLICK TO EARN AND ARCADE'} />

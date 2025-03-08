@@ -6,7 +6,7 @@ import Image from 'next/image';
 const PeperuneyMeme = () => {
     return (
         <div className=' bg-cover lg:bg-[length:100%_100%] bg-center bg-no-repeat relative meme-bg max-sm:bg-[length:100%_100%]'>
-            <div data-aos="zoom-out-up" className='max-w-[250px] mx-auto pt-12 max-sm:flex items-center flex-col justify-center md:hidden pb-[30px]'>
+            <div className='max-w-[250px] mx-auto pt-12 max-sm:flex items-center flex-col justify-center md:hidden pb-[30px]'>
                 <CustomHeading MyClass='max-w-[555px] text-center' MyText={'PEPERUNEY MEME'} />
                 <img className='sm:max-w-[250px] max-w-[184px] text-center -mt-1' src="/assets/images/webp/gallery-image.webp" alt="gallery-image" />
             </div>
@@ -21,6 +21,7 @@ const PeperuneyMeme = () => {
                         loop={true}
                         spaceBetween={8}
                         slidesPerView={3}
+                        autoplay={true}
                         className="relative"
                         centeredSlides={true}
                         breakpoints={{
