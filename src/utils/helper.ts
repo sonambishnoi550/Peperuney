@@ -20,13 +20,13 @@ export const CARD_DATA_HOW = [
 ];
 export const OUR_PARTNERS = [
     {
-        image: "/assets/images/png/stake-image.webp",
+        image: "/assets/images/webp/stake-image.webp",
     },
     {
-        image: "/assets/images/png/meteora-image.webp",
+        image: "/assets/images/webp/meteora-image.webp",
     },
     {
-        image: "/assets/images/png/kreator-ai.webp",
+        image: "/assets/images/webp/kreator-ai.webp",
     },
 ];
 export const ACCORDION_ITEMS = [

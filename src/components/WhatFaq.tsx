@@ -19,9 +19,9 @@ const Faq: React.FC = () => {
     return (
         <div className='flex flex-col'>
             <PeperuneySlider className='!bg-[#067A52] h-[76px] sm:h-[100px] flex items-center' />
-            <div className='bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center py-14 sm:pt-[89px] sm:pb-[92px]' style={{ backgroundImage: `url(/assets/images/png/faq-bg.webp)` }}>
+            <div className='bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center py-14 sm:pt-[89px] sm:pb-[92px]' style={{ backgroundImage: `url(/assets/images/webp/faq-bg.webp)` }}>
                 <div className='container mx-auto'>
-                    <Image className='sm:max-w-[530px] max-w-[280px] mx-auto text-center pb-4' src="/assets/images/png/what-faq.webp" alt="what-faq" width={530} height={104} />
+                    <Image className='sm:max-w-[530px] max-w-[280px] mx-auto text-center pb-4' src="/assets/images/webp/what-faq.webp" alt="what-faq" width={530} height={104} />
                     <div className='max-w-[687px] mx-auto'>
                         {ACCORDION_ITEMS.map((item: AccordionItem, index: number) => (
                             <div

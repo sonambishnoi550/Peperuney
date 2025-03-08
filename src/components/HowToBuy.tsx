@@ -14,7 +14,7 @@ const HowToBuy: React.FC = () => {
         <div className="relative bg-white">
             <Image
                 className="absolute sm:top-[-106px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px]"
-                src="/assets/images/png/how-buy-layer.webp"
+                src="/assets/images/webp/how-buy-layer.webp"
                 alt="how-layer"
                 width={1841} height={195} 
             />
@@ -25,11 +25,11 @@ const HowToBuy: React.FC = () => {
                 />
                 <Image
                     className="sm:max-w-[365px] max-w-[231px] sm:-mt-5 -mt-3 max-sm:h-[80px]"
-                    src="/assets/images/png/how-buy-peperuney.webp"
+                    src="/assets/images/webp/how-buy-peperuney.webp"
                     alt="how-peperuney" width={365} height={105} 
                 />
             </div>
-            <div className=" bg-cover bg-no-repeat bg-center lg:pt-[100px] pt-[63px] sm:pt-16 max-w-[1435px] mx-auto" style={{ backgroundImage: `url(/assets/images/png/how-bg-image.webp)` }}>
+            <div className="bg-cover bg-no-repeat bg-center lg:pt-[100px] pt-[63px] sm:pt-16 max-w-[1435px] mx-auto" style={{ backgroundImage: `url(/assets/images/webp/how-bg-image.webp)` }}>
                 <div className="max-w-[1080px] w-full mx-auto px-5">
                     <div
                         className="flex md:flex-row lg:gap-7 gap-5 flex-col justify-center">
@@ -74,8 +74,8 @@ const HowToBuy: React.FC = () => {
                         ))}
                     </div>
                 </div>
-                <Image className="sm:max-w-[1220px] sm:block hidden w-full mx-auto max-md:pt-7 md:-mt-7" src="/assets/images/png/pizza-image.webp" alt="pizza-image" width={1220} height={495} />
-                <Image className="sm:hidden block max-md:pt-7 w-full" src="/assets/images/png/pizza-image-mobile.webp" alt="mobile-pizaa"
+                <Image className="sm:max-w-[1220px] sm:block hidden w-full mx-auto max-md:pt-7 md:-mt-7" src="/assets/images/webp/pizza-image.webp" alt="pizza-image" width={1220} height={495} />
+                <Image className="sm:hidden block max-md:pt-7 w-full" src="/assets/images/webp/pizza-image-mobile.webp" alt="mobile-pizaa"
                     width={690} height={280} />
             </div>
         </div>

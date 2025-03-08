@@ -7,8 +7,8 @@ const Footer = () => {
 
     return (
         <div className='relative'>
-            <Image className='absolute sm:block hidden -top-[54px] h-[120px] w-full' src="/assets/images/png/footer-vector.webp" alt="footer-layer" width={1440} height={120} />
-            <Image className='absolute sm:hidden block -top-8 h-[272px] w-full' src="/assets/images/png/footer-vector-mobile.webp" alt="footer-vector" width={375} height={293} />
+            <Image className='absolute sm:block hidden -top-[54px] h-[120px] w-full' src="/assets/images/webp/footer-vector.webp" alt="footer-layer" width={1440} height={120} />
+            <Image className='absolute sm:hidden block -top-8 h-[272px] w-full' src="/assets/images/webp/footer-vector-mobile.webp" alt="footer-vector" width={375} height={293} />
             <div className='container max-sm:px-2 mx-auto'>
                 <div className='z-10 relative flex xl:justify-between justify-center items-center flex-wrap max-xl:gap-6 py-5 md:pt-3 md:pb-9'>
                     <p className='ff-schoolbell font-normal text-lg text-black text-center max-sm:max-w-[272px] max-sm:mx-auto'>

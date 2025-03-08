@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container max-w-[1300px] mx-auto px-4">
                 <div className="flex justify-between">
                     <Link href="#">
-                        <Image className="max-sm:w-[120px]" src="/assets/images/png/logo.webp" alt="logo-image" width={262} height={75} />
+                        <Image className="max-sm:w-[120px]" src="/assets/images/webp/logo.webp" alt="logo-image" width={262} height={75} />
                     </Link>
                     <div className="flex md:gap-10 gap-2">
                         <div className="flex md:gap-3 gap-1">

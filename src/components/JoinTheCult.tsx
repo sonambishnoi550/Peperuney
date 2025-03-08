@@ -8,7 +8,7 @@ const JoinTheCult = () => {
             <div className="border-t-4 border-b-4 border-black bg-[#8B8581] w-full h-[39px]"></div>
             <div className=' bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center join-bg max-sm:bg-join-mobile max-sm:bg-[length:100%_100%] sm:pt-[100px] pt-[60px] md:pt-[140px] pb-[578px] max-sm:h-[850px] relative'>
                 <div className='max-w-[674px] mx-auto'>
-                    <Image className='md:max-w-[670px] sm:max-w-[500px] mx-auto max-sm:max-w-[371px]' src="/assets/images/png/join-cult.webp" alt="join-cult" width={670} height={100} />
+                    <Image className='md:max-w-[670px] sm:max-w-[500px] mx-auto max-sm:max-w-[371px]' src="/assets/images/webp/join-cult.webp" alt="join-cult" width={670} height={100} />
                     <div className='flex justify-center items-center gap-4 pt-5'>
                             <div
                                 className="bg-menu-bg cursor-pointer gap-[15px] flex justify-center items-center bg-no-repeat bg-center  transition-transform duration-300 transform hover:scale-105"
@@ -26,7 +26,7 @@ const JoinTheCult = () => {
                     </div>
                 </div>
                 <div className='sm:block hidden absolute xl:top-[37%] xl:left-[30%] lg:top-[49%] lg:left-[30%] 3xl:top-[29%] 3xl:left-[34%] left-[15%] top-[39%]'>
-                    <Image className='xl:max-w-[671px] 3xl:max-w-[800px] lg:max-w-[500px] max-w-[620px] w-full mx-auto' src="/assets/images/png/join-men.webp" alt="join-men-image" width={671} height={445} />
+                    <Image className='xl:max-w-[671px] 3xl:max-w-[800px] lg:max-w-[500px] max-w-[620px] w-full mx-auto' src="/assets/images/webp/join-men.webp" alt="join-men-image" width={671} height={445} />
                 </div>
             </div>
         </div>

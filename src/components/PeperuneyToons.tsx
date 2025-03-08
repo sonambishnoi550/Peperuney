@@ -12,16 +12,16 @@ const PeperuneyToons = () => {
         <div className="flex flex-col">
             <div className="border-t-4 border-b-4 border-black bg-[#8B8581] w-full h-[39px]"></div>
             <div className="room-bg bg-no-repeat bg-100 bg-cover bg-center xl:bg-left min-h-[700px] md:min-h-[900px] pt-8 relative overflow-hidden max-sm:-mt-[1px]">
-                <img src="/assets/images/png/block-text.webp" alt="block" className="mx-auto lg:mr-[70px] mt-20 pointer-events-none" />
+                <img src="/assets/images/webp/block-text.webp" alt="block" className="mx-auto lg:mr-[70px] mt-20 pointer-events-none" />
                 <img
-                    src="/assets/images/png/peperuney-front-tv.webp"
+                    src="/assets/images/webp/peperuney-front-tv.webp"
                     alt="peperuney"
                     className="ml-auto absolute max-w-[347px] md:max-w-[668px] w-full right-0 z-20 pointer-events-none -bottom-5 md:bottom-0"
                 />
                 <div className="container relative mx-auto">
                     <div className="z-10 absolute xl:left-[343px] lg:left-[216px] left-6 sm:left-10 md:left-[88px] max-w-[265px] sm:max-w-[450px] md:max-w-[477px] w-full top-[195px] sm:top-[160px] md:top-[89px]">
                         <div data-aos="fade-up" className="relative">
-                            <img src="/assets/images/png/tv-screen.webp" alt="screen" className="z-10 relative" />
+                            <img src="/assets/images/webp/tv-screen.webp" alt="screen" className="z-10 relative" />
                             {play ? (
                                 <iframe
                                     className="absolute left-0 top-0 w-full h-full z-20"

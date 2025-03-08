@@ -11,7 +11,7 @@ const PeperuneySlider = ({ className = "", bgColor = "bg-red-500" }) => {
                 {Array.from({ length: items }).map((_, index) => (
                     <Image
                         key={index}
-                        src="/assets/images/png/pepeureny-slider-image.webp"
+                        src="/assets/images/webp/pepeureny-slider-image.webp"
                         alt={`Item ${index}`}
                         className="w-[163px] h-[28px] sm:w-[233px] sm:h-[40px] pointer-events-auto object-cover mx-5 cursor-pointer"
                         width={233} height={40}
