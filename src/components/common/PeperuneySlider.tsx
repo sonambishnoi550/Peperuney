@@ -4,7 +4,6 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 const PeperuneySlider = ({ className = "", bgColor = "bg-red-500" }) => {
     const items = 26;
-
     return (
         <div className={`${className} relative overflow-hidden mx-auto w-full flex border-t-4 border-black border-b-[6px] ${bgColor}`}>
             <Marquee speed={30} gradient={false} pauseOnHover={true}>
