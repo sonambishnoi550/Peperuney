@@ -11,7 +11,7 @@ interface CardData {
 const HowToBuy: React.FC = () => {
 
     return (
-        <div className="relative bg-white" id="how-to-buy">
+        <div className="relative bg-white">
             <Image
                 className="absolute sm:top-[-106px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px]"
                 src="/assets/images/png/how-buy-layer.webp"

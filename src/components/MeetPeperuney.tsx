@@ -28,7 +28,7 @@ const MeetPeperuney = () => {
                                     <div className='flex justify-between max-sm:gap-2 sm:pt-5 items-center sm:pb-4 pb-3'>
                                         <p className='xl:text-[32px] xl:leading-[52px] sm:text-2xl text-[22px] text-[#0E0E0E] ff-schoolbell'>FEELS GREAT MAN!</p>
                                         <button>
-                                            <Image className='xl:max-w-[337px] lg:max-w-[240px] md:max-w-[200px] max-w-[127px] transition duration-300 transform hover:scale-105 pointer-events-auto' src="/assets/images/png/manifesto.png" alt="manifesto" width={274} height={74} />
+                                            <Image className='xl:max-w-[337px] lg:max-w-[240px] md:max-w-[200px] max-w-[127px] transition duration-300 transform hover:scale-105 pointer-events-auto' src="/assets/images/png/manifesto.webp" alt="manifesto" width={274} height={74} />
                                         </button>
                                     </div>
                                 </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 const OurPartners = () => {
 
     return (
-        <div className='bg-cover bg-no-repeat bg-center lg:pt-[113px] pt-16 pb-[46px] xl:pb-[280px] lg:pb-56' id="meme" style={{ backgroundImage: `url(/assets/images/png/our-partners-bg.webp)` }}>
+        <div className='bg-cover bg-no-repeat bg-center lg:pt-[113px] pt-16 pb-[46px] xl:pb-[280px] lg:pb-56' style={{ backgroundImage: `url(/assets/images/png/our-partners-bg.webp)` }}>
             <div className='container mx-auto'>
                 <div className='flex flex-col justify-center items-center max-w-[1200px] w-full mx-auto'>
                     <CustomHeading MyClass='text-center' MyText={'OUR PARTNERS'} />

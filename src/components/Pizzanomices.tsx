@@ -4,7 +4,7 @@ import Image from "next/image";
 const Pizzanomics = () => {
     return (
         <div className='relative bg-[#DA291C] overflow-hidden max-w-[1440px] mx-auto'>
-            <Image className="relative z-10" src="/assets/images/png/Pizza box pattern.png" alt="pizza-box" width={1524} height={134}/>
+            <Image className="relative z-10" src="/assets/images/png/Pizza-box-pattern.webp" alt="pizza-box" width={1524} height={134}/>
             <Image className='sm:w-full max-w-[972px] w-[972px] relative z-10 object-contain sm:max-w-full' src="/assets/images/png/pizzanomics-layer.webp" alt="pizzanomics-layer" width={1440} height={346} />
             <p className='absolute left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-16 xl:left-20 top-[3%] md:top-[4%] xl:top-[9%] lg:top-[8%] drop-shadow-[10.7px_-10.7px_0px_#FBDB81] text-[#893101] text-[60px] sm:text-[70px] lg:text-[90px] xl:text-[141px] leading-[100%] z-20'>PIZZANOMICS</p>
             <div className='flex lg:flex-row flex-col-reverse justify-between gap-5'>
@@ -38,7 +38,7 @@ const Pizzanomics = () => {
                                 <Image className='transition duration-300 transform hover:scale-105' src="/assets/images/svg/earn.svg" alt="earn" width={313} height={97.13} /></button>
                             <button className='mt-7 sm:hidden block'><Image className='transition duration-300 transform hover:scale-105' src="/assets/images/svg/earn.svg" alt="earn" width={335} height={74.78} /></button>
                         </div>
-                        <Image src="/assets/images/png/green-pizza.png" alt="pizza" className='lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8' width={656} height={828.72} />
+                        <Image src="/assets/images/png/green-pizza.webp" alt="pizza" className='lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8' width={656} height={828.72} />
                     </div>
                     <div className='max-sm:bg-pizzanomics-card bg-cover bg-no-repeat bg-center relative md:pt-[160px] lg:pt-[320px]  max-sm:mt-[184px]' style={{ backgroundImage: `url(/assets/images/png/cards-pizzanomics-bg.webp)` }}>
                         <div className="flex flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8 pt-10 pizzanomics-gradient">
