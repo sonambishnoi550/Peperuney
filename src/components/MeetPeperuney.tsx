@@ -20,7 +20,7 @@ const MeetPeperuney = () => {
                         </div>
                         <div className='lg:w-[56%] w-full'>
                             <CustomHeading MyClass='text-center lg:pb-3 sm:pb-6' MyText={'MEET PEPERUNEY'} />
-                            <div className='meet-vector max-sm:bg-meet-small bg-[length:100%_100%] bg-no-repeat bg-center sm:px-7 sm:py-10 px-3'>
+                            <div className='meet-vector bg-[length:100%_100%] bg-no-repeat bg-center sm:px-7 sm:py-10 px-3'>
                                 <div className='flex justify-center sm:-mt-16 xl:-mt-20'><Image className='lg:max-w-[332px] sm:max-w-[195px] max-w-[0] max-sm:h-[77px] w-full pointer-events-auto' src="/assets/images/png/pizza-guy.webp" alt="pizza-guy" width={337} height={102} /></div>
                                 <div className='sm:ps-12 ps-4'>
                                     <Description MyClass='lg:max-w-[613px] w-full' MyText={`The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’`} />

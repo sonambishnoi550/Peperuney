@@ -11,7 +11,7 @@ const PeperuneyToons = () => {
     return (
         <div className="flex flex-col">
             <div className="border-t-4 border-b-4 border-black bg-[#8B8581] w-full h-[39px]"></div>
-            <div className=" max-md:bg-room-mobile bg-no-repeat bg-100 bg-cover bg-center xl:bg-left min-h-[700px] md:min-h-[900px] pt-8 relative overflow-hidden max-sm:-mt-[1px]" style={{ backgroundImage: `url(/assets/images/png/living-room-tv.webp)` }}>
+            <div className="room-bg bg-no-repeat bg-100 bg-cover bg-center xl:bg-left min-h-[700px] md:min-h-[900px] pt-8 relative overflow-hidden max-sm:-mt-[1px]">
                 <img src="/assets/images/png/block-text.webp" alt="block" className="mx-auto lg:mr-[70px] mt-20 pointer-events-none" />
                 <img
                     src="/assets/images/png/peperuney-front-tv.webp"

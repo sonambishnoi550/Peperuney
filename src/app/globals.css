@@ -23,7 +23,18 @@ body {
     font-family: "Schoolbell", cursive;
     font-weight: 400;
 }
-
+.room-bg{
+    background-image: url('/assets/images/png/living-room-tv.webp') !important;
+}
+.join-bg{
+        background-image: url('/assets/images/png/join-bg.webp') !important;
+}
+.meme-bg{
+    background-image: url('/assets/images/png/peperuney-meme-bg.webp') !important;
+}
+.click-bg {
+    background-image: url('/assets/images/png/click-bg.webp') !important;
+}
 @media(max-width:639.99px) {
     .click-bg {
         background: linear-gradient(180deg, #7C4C01 80.5%, rgba(226, 139, 2, 0) 100%);
@@ -32,4 +43,19 @@ body {
     .pizzanomics-gradient {
         background: linear-gradient(180deg, #A22F27 0%, #3C110E 100%);
     }
+        .room-bg {
+            background-image: url('/assets/images/png/earn-and-arcade.webp') !important;
+        }
+.join-bg {
+    background-image: url('/assets/images/png/join-mobile-bg.webp') !important;
+}
+.meme-bg {
+    background-image: url('/assets/images/png/meme-mobile-bg.webp') !important;
+}
+.click-bg {
+    background-image: url('/assets/images/png/click-small-screen.webp') !important;
+}
+.meet-vector {
+    background-image: url('/assets/images/png/meet-small-bg.webp') !important;
+}
 }
