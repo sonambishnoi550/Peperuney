@@ -1,5 +1,5 @@
-import React from "react";
-import { CARD_DATA_HOW } from "@/utils/helper"
+
+import { HOW_TO_BUY_CARD_DATA } from "@/utils/helper"
 import CustomHeading from "./common/CustomHeading";
 import Image from "next/image";
 interface CardData {
@@ -11,7 +11,7 @@ interface CardData {
 const HowToBuy: React.FC = () => {
 
     return (
-        <div className="relative bg-white">
+        <div className="relative bg-white max-w-[1920px]">
             <Image
                 className="absolute sm:top-[-106px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px]"
                 src="/assets/images/webp/how-buy-layer.webp"
@@ -29,11 +29,11 @@ const HowToBuy: React.FC = () => {
                     alt="how-peperuney" width={365} height={105} 
                 />
             </div>
-            <div className="bg-cover bg-no-repeat bg-center lg:pt-[100px] pt-[63px] sm:pt-16 max-w-[1435px] mx-auto" style={{ backgroundImage: `url(/assets/images/webp/how-bg-image.webp)` }}>
+            <div className="bg-cover bg-no-repeat bg-center lg:pt-[100px] pt-[63px] sm:pt-16 2xl:max-w-[1920px] max-w-[1435px] mx-auto" style={{ backgroundImage: `url(/assets/images/webp/how-bg-image.webp)` }}>
                 <div className="max-w-[1080px] w-full mx-auto px-5">
                     <div
                         className="flex md:flex-row lg:gap-7 gap-5 flex-col justify-center">
-                        {CARD_DATA_HOW.map((card, index) => (
+                        {HOW_TO_BUY_CARD_DATA.map((card, index) => (
                             <div
                                 key={card.id}
                                 className={`w-full flex flex-col ${index === 1

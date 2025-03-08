@@ -1,4 +1,4 @@
-import React from 'react'
+
 import PeperuneySlider from "@/components/common/PeperuneySlider"
 import Image from "next/image";
 export const BuyPepruney = () => {
@@ -9,8 +9,8 @@ export const BuyPepruney = () => {
                 <div className='container'>
                     <div className='flex flex-col justify-center sm:pb-[30px] pb-5 items-center gap-2'>
                         <button className="cursor-pointer">
-                            <Image className='max-w-[262px] transition duration-300 transform hover:scale-105 pointer-events-auto' src="/assets/images/webp/logo.webp" alt="logo-image" width={262} height={75} /></button>
-                        <Image className='max-w-[160px] pointer-events-auto' src="/assets/images/webp/all-in-man.webp" alt="all-image" width={161} height={69} />
+                            <Image className='max-w-[262px] transition duration-300 transform hover:scale-105 pointer-events-none cursor-pointer' src="/assets/images/webp/logo.webp" alt="logo-image" width={262} height={75} /></button>
+                        <Image className='max-w-[160px] pointer-events-none cursor-pointer' src="/assets/images/webp/all-in-man.webp" alt="all-image" width={161} height={69} />
                     </div>
                 </div>
             </div>

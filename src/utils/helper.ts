@@ -1,4 +1,4 @@
-export const CARD_DATA_HOW = [
+export const HOW_TO_BUY_CARD_DATA = [
     {
         id: 1,
         title: "GET YOUR WALLET READY",
@@ -18,7 +18,7 @@ export const CARD_DATA_HOW = [
             "Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!",
     },
 ];
-export const OUR_PARTNERS = [
+export const OUR_PARTNERS_LIST = [
     {
         image: "/assets/images/webp/stake-image.webp",
     },

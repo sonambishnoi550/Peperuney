@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,7 +14,7 @@ const Footer = () => {
                     <p className='ff-schoolbell font-normal text-lg text-black text-center max-sm:max-w-[272px] max-sm:mx-auto'>
                         Copyright ⓒ {currentYear} Peperuney Pizza. All rights Reserved
                     </p>
-                    <div className='flex max-sm:gap-3 gap-4'>
+                    <div className='flex items-center max-sm:gap-3 gap-4'>
                         <p className='ff-schoolbell font-normal text-lg text-black'>CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
                         <div className='bg-black size-8 p-2 cursor-pointer'>
                             <Image src="/assets/images/svg/solar-copy.svg" alt="solar-copy" width={32} height={32} />

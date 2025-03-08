@@ -30,7 +30,7 @@ const Faq: React.FC = () => {
                             >
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className={`flex items-center justify-between ff-schoolbell w-full text-left text-white text-2xl sm:text-[32px] sm:leading-[44.56px] font-normal ${activeIndex === index ? 'p-4 sm:pt-[18px] pb-1 sm:px-6' : 'px-4 py-5'
+                                    className={`flex items-center justify-between ff-schoolbell w-full text-left text-white text-2xl sm:text-[32px] sm:leading-[44.56px] font-normal ${activeIndex === index ? 'p-4 sm:pt-[18px] pb-1 sm:px-6' : 'px-6 py-5'
                                         }`}
                                 >
                                     <span className='max-w-[569px]'>{item.title}</span>

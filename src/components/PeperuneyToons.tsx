@@ -4,10 +4,6 @@ import Image from "next/image";
 const PeperuneyToons = () => {
     const [play, setPlay] = useState(false);
 
-    const handlePlayClick = () => {
-        setPlay(true);
-    };
-
     return (
         <div className="flex flex-col">
             <div className="border-t-4 border-b-4 border-black bg-[#8B8581] w-full h-[39px]"></div>
@@ -33,10 +29,10 @@ const PeperuneyToons = () => {
                                 ></iframe>
                             ) : (
                                 <div
-                                    onClick={handlePlayClick}
+                                    onClick={() => setPlay(true)}
                                     className="bg-white grid place-items-center cursor-pointer rounded-full absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2 border-2 border-black duration-300 ease-linear hover:opacity-70"
                                 >
-                                        <Image src="/assets/images/svg/play.svg" alt="play" width={65} height={65}/>
+                                    <Image src="/assets/images/svg/play.svg" alt="play" width={65} height={65} />
                                 </div>
                             )}
                         </div>

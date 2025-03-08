@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import CustomHeading from './common/CustomHeading';
@@ -59,7 +59,7 @@ const PeperuneyMeme = () => {
                             <img className='w-full h-[250px] md:h-[267px] lg:h-[259px] xl:h-[360px] object-cover' src="/assets/images/webp/poster-carusel.webp" alt="poster-carusel" />
                         </SwiperSlide>
                     </Swiper>
-                    <div className='max-sm:mx-auto max-sm:text-center sm:mt-11 max-sm:mb-[73px] max-sm:mt-[133px]'><button className='sm:max-w-[293px] transition duration-300 transform hover:scale-105'>
+                    <div className='max-sm:mx-auto max-sm:text-center sm:mt-11 max-sm:mb-[73px] max-sm:mt-[133px]'><button className='cursor-pointer sm:max-w-[293px] transition duration-300 transform hover:scale-105'>
                         <Image className='sm:block hidden' src="/assets/images/svg/create-meme.svg" alt="create-meme" width={293} height={75} />
                         <Image className='block sm:hidden' src="/assets/images/svg/meme-create.svg" alt="create-meme" width={293} height={75} /></button>
                     </div>

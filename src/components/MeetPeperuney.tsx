@@ -1,4 +1,4 @@
-import React from "react";
+
 import CustomHeading from "./common/CustomHeading";
 import Description from './common/Description'
 import Image from "next/image";
@@ -20,7 +20,7 @@ const MeetPeperuney = () => {
                         </div>
                         <div className='lg:w-[56%] w-full'>
                             <CustomHeading MyClass='text-center lg:pb-3 sm:pb-6' MyText={'MEET PEPERUNEY'} />
-                            <div className='meet-vector bg-[length:100%_100%] bg-no-repeat bg-center sm:px-7 sm:py-10 px-3'>
+                            <div className='meet-vector bg-[length:100%_100%] bg-no-repeat bg-center sm:px-7 sm:py-10 px-3 max-sm:pb-5'>
                                 <div className='flex justify-center sm:-mt-16 xl:-mt-20'><Image className='lg:max-w-[332px] sm:max-w-[195px] max-w-[0] max-sm:h-[77px] w-full pointer-events-auto' src="/assets/images/webp/pizza-guy.webp" alt="pizza-guy" width={337} height={102} /></div>
                                 <div className='sm:ps-12 ps-4'>
                                     <Description MyClass='lg:max-w-[613px] w-full' MyText={`The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’`} />
@@ -28,7 +28,7 @@ const MeetPeperuney = () => {
                                     <div className='flex justify-between max-sm:gap-2 sm:pt-5 items-center sm:pb-4 pb-3'>
                                         <p className='xl:text-[32px] xl:leading-[52px] sm:text-2xl text-[22px] text-[#0E0E0E] ff-schoolbell'>FEELS GREAT MAN!</p>
                                         <button>
-                                            <Image className='xl:max-w-[337px] lg:max-w-[240px] md:max-w-[200px] max-w-[127px] transition duration-300 transform hover:scale-105 pointer-events-auto' src="/assets/images/webp/manifesto.webp" alt="manifesto" width={274} height={74} />
+                                            <Image className='xl:max-w-[337px] cursor-pointer lg:max-w-[240px] md:max-w-[200px] max-w-[127px] transition duration-300 transform hover:scale-105 pointer-events-auto' src="/assets/images/webp/manifesto.webp" alt="manifesto" width={274} height={74} />
                                         </button>
                                     </div>
                                 </div>
