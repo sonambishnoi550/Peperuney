@@ -41,7 +41,7 @@ export const ACCORDION_ITEMS = [
     },
 
     {
-        title: 'How does multi-chain aspect of $%Peperuney work',
+        title: 'How does multi-chain aspect of $ %Peperuney work',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
     },
 
