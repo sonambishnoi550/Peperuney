@@ -19,11 +19,11 @@ const MeetPeperuney = () => {
                             <Image className='max-w-[580px] w-full max-sm:-mt-8 pointer-events-auto' src="/assets/images/webp/meet-cartoon-image.webp" alt="meet-cartoon" width={580} height={530} />
                         </div>
                         <div className='lg:w-[56%] w-full'>
-                            <CustomHeading MyClass='text-center lg:pb-3 sm:pb-6' MyText={'MEET PEPERUNEY'} />
+                            <CustomHeading myClass='text-center lg:pb-3 sm:pb-6' myText={'MEET PEPERUNEY'} />
                             <div className='meet-vector bg-[length:100%_100%] bg-no-repeat bg-center sm:px-7 sm:py-10 px-3 max-sm:pb-5'>
                                 <div className='flex justify-center sm:-mt-16 xl:-mt-20'><Image className='lg:max-w-[332px] sm:max-w-[195px] max-w-[0] max-sm:h-[77px] w-full pointer-events-auto' src="/assets/images/webp/pizza-guy.webp" alt="pizza-guy" width={337} height={102} /></div>
                                 <div className='sm:ps-12 ps-4'>
-                                    <Description MyClass='lg:max-w-[613px] w-full' MyText={`The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’`} />
+                                    <Description myClass='lg:max-w-[613px] w-full' myText={`The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’`} />
                                     <div className='border-b border-[#0E0E0E] max-sm:pt-2'></div>
                                     <div className='flex justify-between max-sm:gap-2 sm:pt-5 items-center sm:pb-4 pb-3'>
                                         <p className='xl:text-[32px] xl:leading-[52px] sm:text-2xl text-[22px] text-[#0E0E0E] ff-schoolbell'>FEELS GREAT MAN!</p>

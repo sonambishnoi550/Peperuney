@@ -16,7 +16,7 @@ const PeperuneyToons = () => {
                 />
                 <div className="container relative mx-auto">
                     <div className="z-10 absolute xl:left-[343px] lg:left-[216px] left-6 sm:left-10 md:left-[88px] max-w-[265px] sm:max-w-[450px] md:max-w-[477px] w-full top-[195px] sm:top-[160px] md:top-[89px]">
-                        <div className="relative">
+                        <div className="relative 2xl:left-[25%]">
                             <img src="/assets/images/webp/tv-screen.webp" alt="screen" className="z-10 relative" />
                             {play ? (
                                 <iframe

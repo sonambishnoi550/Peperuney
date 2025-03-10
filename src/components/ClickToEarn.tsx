@@ -13,12 +13,12 @@ const ClickToEarn = () => {
                 <div className='container sm:pt-[96px] pt-[60px] relative z-10 pb-[128px] justify-center items-center flex lg:items-end lg:justify-end'>
                     <div className='sm:max-w-[682px] w-full'>
                         <div className='flex justify-center items-center flex-col'>
-                            <CustomHeading MyClass='sm:max-w-[555px] w-full text-center sm:block hidden' MyText={'CLICK-TO-EARN AND ARCADE'} />
-                            <CustomHeading MyClass='sm:hidden block text-center' MyText={'CLICK TO EARN AND ARCADE'} />
+                            <CustomHeading myClass='sm:max-w-[555px] w-full text-center sm:block hidden' myText={'CLICK-TO-EARN AND ARCADE'} />
+                            <CustomHeading myClass='sm:hidden block text-center' myText={'CLICK TO EARN AND ARCADE'} />
                             <Image className='sm:max-w-[250px] -mt-2 sm:-mt-5 max-w-[195px]' src="/assets/images/webp/casino-logo.webp" alt="casino-image" width={250} height={105} />
                         </div>
                         <div className='bg-no-repeat bg-center bg-[length:100%_100%] -mt-[50px]' style={{ backgroundImage: `url(/assets/images/webp/casino-bg.webp)` }}>
-                            <Description MyClass='md:max-w-[687px] px-4 pb-8 pt-14 sm:px-[30px] sm:pb-[30px] sm:pt-[50px]' MyText={'HEY YOU! Yeah, YOU! So you made it this far… Hell yeah I’m impressed! Means you’re serious about pizza, vibes, and big-time wins. Catch me at the slots or the poker table, always *ALL-IN* for that next big score. It’s the thrill, baby—the gamble, the grind—it keeps me fired up to build the ULTIMATE PIZZA EMPIRE! Wanna roll with the best? Smash that button, start stackin’ up, and show me what you got. FEELS GREAT MAN!'} />
+                            <Description myClass='md:max-w-[687px] px-4 pb-8 pt-14 sm:px-[30px] sm:pb-[30px] sm:pt-[50px]' myText={'HEY YOU! Yeah, YOU! So you made it this far… Hell yeah I’m impressed! Means you’re serious about pizza, vibes, and big-time wins. Catch me at the slots or the poker table, always *ALL-IN* for that next big score. It’s the thrill, baby—the gamble, the grind—it keeps me fired up to build the ULTIMATE PIZZA EMPIRE! Wanna roll with the best? Smash that button, start stackin’ up, and show me what you got. FEELS GREAT MAN!'} />
                         </div>
                         <div className='sm:flex hidden justify-center w-full items-center flex-wrap gap-2 sm:gap-[30px] sm:mt-8'>
                             <button className='cursor-pointer transition duration-300 transform hover:scale-105 max-w-[241px]'> <Image className='max-w-[241px] w-full' src="/assets/images/svg/play-now.svg" alt="play-now" width={ 241} height={74.78} /></button>

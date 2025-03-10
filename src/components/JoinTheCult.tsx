@@ -13,7 +13,7 @@ const JoinTheCult = () => {
                             <div
                                 className="bg-menu-bg cursor-pointer gap-[15px] flex justify-center items-center bg-no-repeat bg-center"
                             >
-                                <Link  href="https://x.com/?lang=en">
+                                <Link href="https://x.com/?lang=en">
                                 <Image className="w-[100px] hover:scale-110 transition-all duration-700 h-[87px]" src="/assets/images/svg/twitter-two.svg" alt="twitter" width={100} height={87} />
                                 </Link>
                                 <Link href="https://web.telegram.org/k/">

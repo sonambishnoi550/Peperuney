@@ -1,23 +1,29 @@
+
+
 export const HOW_TO_BUY_CARD_DATA = [
     {
         id: 1,
         title: "GET YOUR WALLET READY",
         description:
             "Set up Phantom Wallet and connect it to Solana. Make sure Solana’s locked and loaded as the active network.",
+        width: "200px",
     },
     {
         id: 2,
         title: "FUND YOUR WALLET",
         description:
             "Load up on SOL from Coinbase, Binance, or OKX. Double-check your wallet address—no room for slip-ups.",
+        width: "200px",
     },
     {
         id: 3,
         title: "GRAB THAT $PepeRuney",
         description:
             "Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!",
+        width: "200px",
     },
 ];
+
 export const OUR_PARTNERS_LIST = [
     {
         image: "/assets/images/webp/stake-image.webp",

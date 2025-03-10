@@ -8,7 +8,7 @@ const OurPartners = () => {
         <div className='bg-cover bg-no-repeat bg-center lg:pt-[113px] pt-16 pb-[46px] xl:pb-[280px] lg:pb-56' style={{ backgroundImage: `url(/assets/images/webp/our-partners-bg.webp)` }}>
             <div className='container mx-auto'>
                 <div className='flex flex-col justify-center items-center max-w-[1200px] w-full mx-auto'>
-                    <CustomHeading MyClass='text-center' MyText={'OUR PARTNERS'} />
+                    <CustomHeading myClass='text-center' myText={'OUR PARTNERS'} />
                     <Image src="/assets/images/webp/we-work-with.webp" alt="work" className='lg:w-[444px] w-[250px] lg:pb-[100px] sm:pb-12 pb-4 sm:-mt-5 -mt-3' width={444.34} height={73.98} />
                     <div className='flex flex-wrap flex-row -mx-3 justify-center w-full'>
                         {OUR_PARTNERS_LIST.map((obj, index) => (

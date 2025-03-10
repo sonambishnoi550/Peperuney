@@ -8,6 +8,7 @@ interface CardData {
     description: string;
     width: string;
 }
+
 const HowToBuy: React.FC = () => {
 
     return (
@@ -20,8 +21,8 @@ const HowToBuy: React.FC = () => {
             />
             <div className="flex justify-center flex-col items-center pb-10">
                 <CustomHeading
-                    MyClass="text-center lg:pt-16 pt-11 !z-10"
-                    MyText={"HOW TO BUY"}
+                    myClass="text-center lg:pt-16 pt-11 !z-10"
+                    myText={"HOW TO BUY"}
                 />
                 <Image
                     className="sm:max-w-[365px] max-w-[231px] sm:-mt-5 -mt-3 max-sm:h-[80px]"
@@ -33,7 +34,7 @@ const HowToBuy: React.FC = () => {
                 <div className="max-w-[1080px] w-full mx-auto px-5">
                     <div
                         className="flex md:flex-row lg:gap-7 gap-5 flex-col justify-center">
-                        {HOW_TO_BUY_CARD_DATA.map((card, index) => (
+                        {HOW_TO_BUY_CARD_DATA.map((card:CardData, index) => (
                             <div
                                 key={card.id}
                                 className={`w-full flex flex-col ${index === 1
