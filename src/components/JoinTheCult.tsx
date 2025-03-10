@@ -13,13 +13,13 @@ const JoinTheCult = () => {
                             <div
                                 className="bg-menu-bg cursor-pointer gap-[15px] flex justify-center items-center bg-no-repeat bg-center"
                             >
-                                <Link href="https://x.com/?lang=en">
+                                <Link href="https://x.com/?lang=en" target="_blank">
                                 <Image className="w-[100px] hover:scale-110 transition-all duration-700 h-[87px]" src="/assets/images/svg/twitter-two.svg" alt="twitter" width={100} height={87} />
                                 </Link>
-                                <Link href="https://web.telegram.org/k/">
+                                <Link href="https://web.telegram.org/k/" target="_blank">
                                 <Image className="hover:scale-110 transition-all duration-700" src="/assets/images/svg/telegram-two.svg" alt="telegram" width={100} height={87} />
                                 </Link>
-                                <Link href="https://discord.com/channels">
+                                <Link href="https://discord.com/channels" target="_blank">
                                 <Image className="hover:scale-110 transition-all duration-700" src="/assets/images/svg/discord-two.svg" alt="discord" width={100} height={87} />
                                 </Link>
                             </div>
